@@ -1,0 +1,311 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Fira Sans", "Noto Serif TC";
+  color: #3f3f3f;
+  justify-items: center;
+  background-color: #f9f9f9;
+}
+
+.container_main {
+  margin: 3em 3em auto 3em;
+  position: relative;
+  background-color: #ffffff;
+  border: #eeeeee 0.5px;
+  border-style: solid;
+  text-align: center;
+}
+
+/////////////////////////////////
+//////
+////// Navbar
+//////
+/////////////////////////////////
+ol,
+ul {
+  list-style: none;
+  float: left;
+}
+li {
+  display: inline-block;
+  padding: 20px 0 20px;
+  vertical-align: middle;
+}
+
+.nav_a:hover,
+.nav_a:focus,
+.nav_a:active {
+  color: #86bbed;
+  text-decoration: none;
+}
+.nav_a {
+  font-family: "Fira Sans", "Noto Serif TC";
+  text-decoration: none;
+  transition: color 0.1s, background-color 0.1s;
+}
+.nav_a {
+  position: relative;
+  display: block;
+  padding: 20px 0;
+  margin: 0 30px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 2px;
+  transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
+  color: #818181;
+}
+.nav_a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #86bbed;
+  transform-origin: right top;
+  transform: scale(0, 1);
+  transition: color 0.1s, transform 0.2s ease-out;
+}
+.nav_a:active::before {
+  background-color: #86bbed;
+}
+
+.nav_a:hover::before,
+.nav_a:focus::before {
+  transform-origin: left top;
+  transform: scale(1, 1);
+}
+
+/////////////// END OF NAVBAR
+
+.notare_menu_nav {
+  padding-top: 2em;
+}
+
+.notare_logo {
+  padding-left: 3em;
+}
+
+.notare_logo img {
+  float: left;
+  margin-left: -2.8em;
+}
+/////////////////////////////////
+//////
+////// Website
+//////
+/////////////////////////////////
+
+.anfrage_btn a {
+  color: white;
+}
+
+.anfrage_btn {
+  padding: 0.5em;
+  float: right;
+  background: #4188e0;
+  height: fit-content;
+}
+
+.menu_nav {
+  padding-top: 1.5em;
+}
+
+.sidebar_text {
+  display: grid;
+  grid-template-columns: 0.02fr 5fr;
+  height: fit-content;
+}
+
+////=======
+.base_line_text {
+  height: fit-content;
+}
+////=======
+
+.notare_img {
+  width: 100%;
+}
+
+.text_sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+div.left_base_line {
+  background: #4188e0;
+  color: #4188e0 !important;
+}
+
+.txt_container {
+  padding-top: -10em;
+  font-family: "Noto Serif TC";
+}
+
+.kaempfen_text {
+  text-align: left;
+  font: normal normal bold 2.7em "Fira Sans";
+  letter-spacing: 2.4px;
+  color: #484848;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-left: 0.5em;
+}
+
+.title_text {
+  font-size: medium;
+  font-weight: bold;
+  height: fit-content;
+}
+
+// .margin_center {
+//   margin-left: 2em;
+//   margin-right: 2em;
+// }
+
+.goto_page {
+  background: none;
+  background-color: none;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+.goto_page:hover {
+  background-color: red;
+  color: red;
+}
+
+.box {
+  margin-top: -22em;
+  background-color: #3f3f3f;
+  border: #3f3f3f 2px;
+  float: right;
+  width: 40%;
+  height: 32em;
+}
+
+.btn_down_arrow {
+  padding-left: 36%;
+  padding-bottom: 3.4em;
+  padding-top: 5em;
+}
+
+.btn_down_arrow .btn {
+  color: red;
+  font-size: 50px;
+  background-color: skyblue;
+}
+
+/////////////////////////////////
+/////
+///// section 2
+/////
+/////////////////////////////////
+
+.container_two {
+  margin: auto 3em auto 3em;
+  position: relative;
+  background-color: #f3f3f3;
+  border: #ebebeb 0.5px;
+  border-style: solid;
+  text-align: center;
+}
+
+.sidebar_text_section2 {
+  padding-top: 7em;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 0.007fr 5fr;
+  height: fit-content;
+}
+
+.taetigkeiten_txt {
+  margin-left: 1.1em;
+  font-size: 1.2em;
+  color: #4188e0;
+}
+
+.sidebar_text_section2 .kaempfen_text {
+  letter-spacing: 0;
+}
+
+.signing_doc_img {
+  margin-top: -65em;
+  margin-left: 42em;
+  width: 48%;
+}
+
+.card {
+  margin-top: 5em;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #f3f3f3;
+  border: none;
+}
+
+.one_card {
+  margin: 0 3em 4em 0;
+  display: inline;
+  font-family: "Fira Sans";
+  width: 28.27em;
+  height: 15em;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  justify-content: center;
+  align-items: center;
+}
+
+/////// Big card section
+
+.big_card {
+  width: 56%;
+  padding: 2em;
+  text-align: left;
+  z-index: 1000;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  margin-bottom: 8em;
+  margin-top: 24em;
+  position: relative;
+}
+
+/////////// container three
+
+.container_three {
+  background-color: #ffffff;
+  padding-left: 3em;
+}
+
+.person_at_laptop {
+  width: 72%;
+}
+
+.section_three_big_card {
+  background: #484848 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  float: right;
+  width: 56%;
+  padding: 2em;
+  text-align: left;
+  z-index: 1000;
+  opacity: 1;
+  margin-top: -35em;
+  position: relative;
+  color: #ffffff;
+}
+
+.section_three_big_card .sidebar_text_section2 {
+  padding-top: 0;
+  columns: #ffffff;
+}
+
+.section_three_big_card .taetigkeiten_txt,
+.section_three_big_card .kaempfen_text {
+  color: #ffffff;
+}
